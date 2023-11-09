@@ -13,6 +13,8 @@ Manage loans effectively with an EMI calculator. Calculate EMIs, total interest,
 
 Manage loans effectively with an EMI calculator. Calculate EMIs, total interest, and assess affordability. Make informed decisions and save money.
 
+[EMI Calculator Homepage](https://www.calculator.io/emi-calculator/ "EMI Calculator Homepage")
+
 __Shortcode__
 
 Use the EMI Calculator shortcode:
