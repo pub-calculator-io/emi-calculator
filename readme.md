@@ -1,4 +1,4 @@
-# EMI Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# EMI Calculator Widget for WordPress
 
 Manage loans effectively with an EMI calculator. Calculate EMIs, total interest, and assess affordability. Make informed decisions and save money.
 
