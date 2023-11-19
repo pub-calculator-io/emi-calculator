@@ -1,4 +1,4 @@
-=== EMI Calculator ===
+=== EMI Calculator by www.calculator.io ===
 Contributors: calculatorio
 Tags: emi calculator, loan repayment calculator, mortgage emi calculator, home loan calculator, personal loan emi calculation, car loan emi estimator, emi interest rate calculator, fixed emi plan calculator, loan tenure emi calculator, monthly installment calculator
 Requires at least: 5.0
