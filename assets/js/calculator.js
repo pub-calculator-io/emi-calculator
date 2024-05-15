@@ -6,7 +6,7 @@ function calculate(){
 	if(!input.valid()) return;
 	const loanTerm = loanTermYears * 12 + loanTermMonths;
 	if(loanTerm < 1) {
-		return input.error('loan_term_year', 'Please enter a loan term', true);
+		return input.error('loan_term_year', 'Enter the loan term', true);
 	}
 	const amortization = calculateAmortization(amount, loanTerm, interest);
 	const payment = calculatePayment(amount, loanTerm, interest);
@@ -21,7 +21,7 @@ function calculatePersonal(){
 	if(!input.valid()) return;
 	const loanTerm = loanTermYears * 12 + loanTermMonths;
 	if(loanTerm < 1) {
-		return input.error('loan_term_year', 'Please enter a loan term', true);
+		return input.error('loan_term_year', 'Enter the loan term', true);
 	}
 	const amortization = calculateAmortization(amount, loanTerm, interest);
 	const payment = calculatePayment(amount, loanTerm, interest);
@@ -37,7 +37,7 @@ function calculateCar(){
 	if(!input.valid()) return;
 	const loanTerm = loanTermYears * 12 + loanTermMonths;
 	if(loanTerm < 1) {
-		return input.error('loan_term_year', 'Please enter a loan term', true);
+		return input.error('loan_term_year', 'Enter the loan term', true);
 	}
 	let amortization = [];
 	let payment = calculatePayment(amount, loanTerm, interest);
@@ -129,7 +129,7 @@ function showResult(amortization, payment){
 			<td>${currencyFormat(item.principle)}</td>
 		</tr>`;
 		if((index + 1) % 12 === 0 || (index + 1) === amortization.length) {
-			let title = 'Year #{1} End'.replace('{1}', Math.ceil((index + 1) / 12).toString());
+			let title = 'Year {1} End'.replace('{1}', Math.ceil((index + 1) / 12).toString());
 			monthlyResultsHtml += `<th class="indigo text-center" colspan="5">${title}</th>`;
 		}
 		annualInterest += item.paymentToInterest;

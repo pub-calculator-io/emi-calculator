@@ -24,7 +24,6 @@ Add the following code to your template where you would like the EMI Calculator 
 == Screenshots ==
 
 1. The EMI Calculator Input Form.
-2. The EMI Calculator Calculation Results.
 
 == Installation ==
 

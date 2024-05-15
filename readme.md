@@ -3,7 +3,6 @@
 Manage loans effectively with an EMI calculator. Calculate EMIs, total interest, and assess affordability. Make informed decisions and save money.
 
 ![EMI Calculator Input Form](/assets/images/screenshot-1.png "EMI Calculator Input Form")
-![EMI Calculator Calculation Results](/assets/images/screenshot-2.png "EMI Calculator Calculation Results")
 
 ## Installation
 
