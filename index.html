@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <meta name="description" content="Manage loans effectively with an EMI calculator. Calculate EMIs, total interest, and assess affordability. Make informed decisions and save money.">
+    <meta name="description" content="Easily calculate your Equated Monthly Installment (EMI) for home, car, or personal loans. Estimate total interest and plan your repayment schedule instantly.">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-regular.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-500.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-600.woff2" as="font" crossorigin type="font/woff2">
@@ -146,13 +146,13 @@
                 				<label class="input col">
                 					<input type="hidden" value="arrears" id="emi_scheme"/>
                 					<p class="input__title">EMI Scheme</p>
-                					<button class="button-switcher button-switcher--active" type="button" onclick="switcher(this, 'emi_scheme', '')" value="arrears" id="emi_scheme-a">
+                					<button class="button-switcher button-switcher--active" type="button" onclick="switcher(this, 'emi_scheme', '')" value="arrears" id="emi_scheme-1">
                 						<span class="button-switcher__text button-switcher__text--active">In Arrears</span>
                 					</button>
                 				</label>
                 				<label class="input col">
                 					<p class="input__title"></p>
-                					<button class="button-switcher" type="button" onclick="switcher(this, 'emi_scheme', '')" value="advance" id="emi_scheme-b">
+                					<button class="button-switcher" type="button" onclick="switcher(this, 'emi_scheme', '')" value="advance" id="emi_scheme-2">
                 						<span class="button-switcher__text">In Advance</span>
                 					</button>
                 				</label>
@@ -161,47 +161,65 @@
                 </div>
                 
                 
-                <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab tab--active" data-tab="0">
+                <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab tab--active"
+                	data-tab="0" >
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
+                
+                	<button class="button button--primary  ml-auto "
+                		onclick="calculate(this); animateElements();" data-action="calculate"
+                		id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
+                <script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib"
+                	defer></script>
+                <script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"
+                	defer></script>
                 
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
-                <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab " data-tab="1">
+                <script type="text/javascript" src="./assets/js/calculator.js" defer></script>
+                <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab "
+                	data-tab="1" >
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculatePersonal(this); animateElements();" data-action="calculatePersonal" id="action-button">Calculate</button>
+                
+                	<button class="button button--primary  ml-auto "
+                		onclick="calculatePersonal(this); animateElements();" data-action="calculatePersonal"
+                		id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
+                <script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib"
+                	defer></script>
+                <script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"
+                	defer></script>
                 
                 
                 
                 
                 
-                <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab " data-tab="2">
+                <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab "
+                	data-tab="2" >
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculateCar(this); animateElements();" data-action="calculateCar" id="action-button">Calculate</button>
+                
+                	<button class="button button--primary  ml-auto "
+                		onclick="calculateCar(this); animateElements();" data-action="calculateCar"
+                		id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
+                <script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib"
+                	defer></script>
+                <script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"
+                	defer></script>
                 
                 
                 

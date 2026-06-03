@@ -1,6 +1,6 @@
 # EMI Calculator Widget for WordPress
 
-Manage loans effectively with an EMI calculator. Calculate EMIs, total interest, and assess affordability. Make informed decisions and save money.
+Easily calculate your Equated Monthly Installment (EMI) for home, car, or personal loans. Estimate total interest and plan your repayment schedule instantly.
 
 ![EMI Calculator Input Form](/assets/images/screenshot-1.png "EMI Calculator Input Form")
 
@@ -11,8 +11,8 @@ Manage loans effectively with an EMI calculator. Calculate EMIs, total interest,
 3. Activate the [EMI Calculator](https://www.calculator.io/emi-calculator/ "EMI Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_emi_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_emi_calculator(); ?>` to your template where you would like the EMI Calculator to appear.
+* Add the shortcode `[calcio_emi_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_emi_calculator(); ?>` to your template where you would like the EMI Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
